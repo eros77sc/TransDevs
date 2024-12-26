@@ -1,0 +1,117 @@
+/* Início do Reset CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
+
+/* Fim do Reset CSS */
+
+body {
+    margin: 10px;
+}
+
+h1, p {
+    background-color: #FFF;
+    margin: 7px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.div1 {
+    width: 175px;
+    height: 175px;
+    border: 5px dotted #EA785B;
+    border-radius: 10px;
+    background: #F0BBB4;
+    color: #515559;
+    margin: 10px;
+}
+
+.div1 p {
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.div1 h1 {
+    font-size: 14px;
+}
+
+.div2 {
+    width: 300px;
+    height: 200px;
+    border: 4px dashed #BCB4FF;
+    border-radius: 20px;
+    color: #2E2C39;
+    background-image: url(/aula-4/assets/img/fundo-div2.svg);
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.div2 p, .div2 h1 {
+    margin: 12px;
+}
+
+.div2 p {
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.div2 h1{
+    font-size: 14px;
+}
+
+.div3 {
+    width: 200px;
+    height: 250px;
+    border: 3px double #C5948D;
+    border-radius: 30px;
+    color: #66433F;
+    background-image: linear-gradient(#A54D27, #FFBE98);
+    margin: 10px;
+}
+
+.div3 h1 {
+    font-size: 12px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div3 p {
+    font-size: 8px;
+    padding-left: 5px;
+    margin: 12px; 
+    margin-bottom: 20px;
+}

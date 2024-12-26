@@ -1,0 +1,111 @@
+/* Inicio Reset CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+
+    line-height: 1.5;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
+
+/* Fim do Reset CSS */
+/* Reset CSS disponibilizado por Josh Comeau */
+
+html {
+    font-size: 62.5%;
+}
+
+body{ 
+    background-color: #6856DC;
+    padding: 4em 0;
+    font-family: "Cuprum", sans-serif;
+    color: #262628;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+    background-color: #C6C2F2;
+    margin: 0 auto;
+    width: 30%;
+    border-radius: 0.7em;
+}
+
+form {
+    background-color: #C6C2F2;
+    margin: 0 auto;
+    padding: 2em;
+    width: 40%;
+    border-radius: 2em;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+input[id="nome"], input[type="email"], input[type="password"] {
+    font-size: 1em;
+    width: 90%;
+}
+
+fieldset > legend {
+    font-size: 1.2em;
+}
+
+label[for="fundamental"], label[for="medio"], label[for="superior"] {
+    padding-right: 0.7em;
+    position: relative;
+    bottom: 0.2em;
+}
+
+label[for="termos"] {
+    position: relative;
+    bottom: 0.1em;
+}
+
+input[type="submit"] {
+    background-color: #D86072;
+    border: 0.2em solid #D6DC82;
+    border-radius: 4em;
+    font-size: 1.5em;
+    padding: 0.5em;
+    cursor: pointer;
+    position: relative;
+    left: 10em;
+}
+
+input[type="submit"]:hover {
+    background-color: #D6DC82;
+    border: 0.2em solid #D86072;
+}
