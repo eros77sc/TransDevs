@@ -21,3 +21,7 @@ Desenvolvimento de estilização do formulário criado na atividade 3.
 
 ### Portal de Notícias
 Desenvolvimento de estilização da página criada na atividade 2.
+
+## Projeto Final
+### Plataforma de rede social
+Criação de plataforma de rede social a partir de designs fornecidos, com possibilidade de recriação, explorando formulários, Flexbox e Grid.
